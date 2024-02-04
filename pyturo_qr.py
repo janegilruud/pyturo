@@ -22,7 +22,7 @@ def create_qrcode(data: str, file_name: str):
     if not file_name.endswith(".png"):
         file_name += ".png"
 
-    type(img)  # qrcode.image.pil.PilImage
+    # type(img)  # qrcode.image.pil.PilImage
     img.save(file_name)
 
 def parse_csv_file(csv_file: str):
